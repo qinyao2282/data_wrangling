@@ -7,5 +7,16 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+
+##Import FAS csv file
+
+import first csv.
+
+```{r}
+litters_data = read.csv(file = "./data/FAS_litters.csv")
 ```
 
